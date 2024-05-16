@@ -70,7 +70,7 @@ SELECT * FROM usuarios WHERE email = 'ghost_silva@fantasma.com';
 --Questao 5) Realizar uma consulta para deletar o usuário com e-mail "peterparker@marvel.com".
 DELETE FROM usuarios WHERE email = 'peterparker@marvel.com';
 
---Busca tabela prprodutos
+--Busca tabela produtos
 --Questao 1) Realizar uma consulta que apresente produtos com descrição vazia.
 SELECT * FROM produtos WHERE descricao= '';
 
